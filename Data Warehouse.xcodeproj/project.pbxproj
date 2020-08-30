@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,15 @@
 		0851501D24F94EB60062EF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0851501B24F94EB60062EF8F /* LaunchScreen.storyboard */; };
 		0851502824F94EB60062EF8F /* Data_WarehouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0851502724F94EB60062EF8F /* Data_WarehouseTests.swift */; };
 		0851503324F94EB60062EF8F /* Data_WarehouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0851503224F94EB60062EF8F /* Data_WarehouseUITests.swift */; };
+		08D7FB7E24FA719800E97F99 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7FB7D24FA719800E97F99 /* Persistance.swift */; };
+		08D7FB8024FA7C0900E97F99 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7FB7F24FA7C0900E97F99 /* Task.swift */; };
+		08D7FB8224FAC06B00E97F99 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7FB8124FAC06B00E97F99 /* TaskList.swift */; };
+		08D7FB8424FAE1CB00E97F99 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7FB8324FAE1CB00E97F99 /* RealmViewController.swift */; };
+		08D7FB8624FAF55500E97F99 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7FB8524FAF55500E97F99 /* TaskTableViewCell.swift */; };
+		08D7FB8A24FB048C00E97F99 /* RealmTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D7FB8924FB048C00E97F99 /* RealmTableView.swift */; };
+		0C54470EB7218EA46DF9B22B /* Pods_Data_Warehouse_Data_WarehouseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94C62FB1845D2F66280D7EF /* Pods_Data_Warehouse_Data_WarehouseUITests.framework */; };
+		1E198B7BDA9EEB115FA5A3D4 /* Pods_Data_WarehouseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8070CA48277606E2788825 /* Pods_Data_WarehouseTests.framework */; };
+		481E19B591F55D237C8DBB8A /* Pods_Data_Warehouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEB84A6FEDDF06FAE6FAE61 /* Pods_Data_Warehouse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,21 @@
 		0851502E24F94EB60062EF8F /* Data WarehouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Data WarehouseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0851503224F94EB60062EF8F /* Data_WarehouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_WarehouseUITests.swift; sourceTree = "<group>"; };
 		0851503424F94EB60062EF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D7FB7D24FA719800E97F99 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		08D7FB7F24FA7C0900E97F99 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		08D7FB8124FAC06B00E97F99 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		08D7FB8324FAE1CB00E97F99 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
+		08D7FB8524FAF55500E97F99 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		08D7FB8924FB048C00E97F99 /* RealmTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTableView.swift; sourceTree = "<group>"; };
+		5939F55023653A03D34892DF /* Pods-Data Warehouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data Warehouse.release.xcconfig"; path = "Target Support Files/Pods-Data Warehouse/Pods-Data Warehouse.release.xcconfig"; sourceTree = "<group>"; };
+		61DB6DC766A74EE173182C7E /* Pods-Data WarehouseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data WarehouseTests.release.xcconfig"; path = "Target Support Files/Pods-Data WarehouseTests/Pods-Data WarehouseTests.release.xcconfig"; sourceTree = "<group>"; };
+		841FF7459A0167CDA7184474 /* Pods-Data Warehouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data Warehouse.debug.xcconfig"; path = "Target Support Files/Pods-Data Warehouse/Pods-Data Warehouse.debug.xcconfig"; sourceTree = "<group>"; };
+		9C72F0E52DB2A5E93ADFAA17 /* Pods-Data Warehouse-Data WarehouseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data Warehouse-Data WarehouseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Data Warehouse-Data WarehouseUITests/Pods-Data Warehouse-Data WarehouseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEEB84A6FEDDF06FAE6FAE61 /* Pods_Data_Warehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data_Warehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD3A211639FE5C42F0603F6 /* Pods-Data Warehouse-Data WarehouseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data Warehouse-Data WarehouseUITests.release.xcconfig"; path = "Target Support Files/Pods-Data Warehouse-Data WarehouseUITests/Pods-Data Warehouse-Data WarehouseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BB8070CA48277606E2788825 /* Pods_Data_WarehouseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data_WarehouseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68C1FDD7580C7F2E059061B /* Pods-Data WarehouseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Data WarehouseTests.debug.xcconfig"; path = "Target Support Files/Pods-Data WarehouseTests/Pods-Data WarehouseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D94C62FB1845D2F66280D7EF /* Pods_Data_Warehouse_Data_WarehouseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data_Warehouse_Data_WarehouseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481E19B591F55D237C8DBB8A /* Pods_Data_Warehouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E198B7BDA9EEB115FA5A3D4 /* Pods_Data_WarehouseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C54470EB7218EA46DF9B22B /* Pods_Data_Warehouse_Data_WarehouseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,8 @@
 				0851502624F94EB60062EF8F /* Data WarehouseTests */,
 				0851503124F94EB60062EF8F /* Data WarehouseUITests */,
 				0851500B24F94EB40062EF8F /* Products */,
+				72C89A24D332DDF9BE88F85B /* Pods */,
+				124ADC7CB9786FD5EFAC94B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +133,13 @@
 				0851500D24F94EB40062EF8F /* AppDelegate.swift */,
 				0851500F24F94EB40062EF8F /* SceneDelegate.swift */,
 				0851501124F94EB40062EF8F /* ViewController.swift */,
+				08D7FB8324FAE1CB00E97F99 /* RealmViewController.swift */,
+				08D7FB8924FB048C00E97F99 /* RealmTableView.swift */,
+				08D7FB8524FAF55500E97F99 /* TaskTableViewCell.swift */,
 				0851501324F94EB40062EF8F /* Main.storyboard */,
+				08D7FB7F24FA7C0900E97F99 /* Task.swift */,
+				08D7FB7D24FA719800E97F99 /* Persistance.swift */,
+				08D7FB8124FAC06B00E97F99 /* TaskList.swift */,
 				0851501924F94EB60062EF8F /* Assets.xcassets */,
 				0851501B24F94EB60062EF8F /* LaunchScreen.storyboard */,
 				0851501E24F94EB60062EF8F /* Info.plist */,
@@ -131,6 +166,29 @@
 			path = "Data WarehouseUITests";
 			sourceTree = "<group>";
 		};
+		124ADC7CB9786FD5EFAC94B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEEB84A6FEDDF06FAE6FAE61 /* Pods_Data_Warehouse.framework */,
+				D94C62FB1845D2F66280D7EF /* Pods_Data_Warehouse_Data_WarehouseUITests.framework */,
+				BB8070CA48277606E2788825 /* Pods_Data_WarehouseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72C89A24D332DDF9BE88F85B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				841FF7459A0167CDA7184474 /* Pods-Data Warehouse.debug.xcconfig */,
+				5939F55023653A03D34892DF /* Pods-Data Warehouse.release.xcconfig */,
+				9C72F0E52DB2A5E93ADFAA17 /* Pods-Data Warehouse-Data WarehouseUITests.debug.xcconfig */,
+				AFD3A211639FE5C42F0603F6 /* Pods-Data Warehouse-Data WarehouseUITests.release.xcconfig */,
+				C68C1FDD7580C7F2E059061B /* Pods-Data WarehouseTests.debug.xcconfig */,
+				61DB6DC766A74EE173182C7E /* Pods-Data WarehouseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0851503724F94EB60062EF8F /* Build configuration list for PBXNativeTarget "Data Warehouse" */;
 			buildPhases = (
+				DA83931A5B89FDE907295E32 /* [CP] Check Pods Manifest.lock */,
 				0851500624F94EB40062EF8F /* Sources */,
 				0851500724F94EB40062EF8F /* Frameworks */,
 				0851500824F94EB40062EF8F /* Resources */,
+				1DF506481AFA023F771B27B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0851503A24F94EB60062EF8F /* Build configuration list for PBXNativeTarget "Data WarehouseTests" */;
 			buildPhases = (
+				3017C1BC49D229898A838A5C /* [CP] Check Pods Manifest.lock */,
 				0851501F24F94EB60062EF8F /* Sources */,
 				0851502024F94EB60062EF8F /* Frameworks */,
 				0851502124F94EB60062EF8F /* Resources */,
@@ -173,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0851503D24F94EB60062EF8F /* Build configuration list for PBXNativeTarget "Data WarehouseUITests" */;
 			buildPhases = (
+				5D2DC5ED34F9FE5A9D2F3BC3 /* [CP] Check Pods Manifest.lock */,
 				0851502A24F94EB60062EF8F /* Sources */,
 				0851502B24F94EB60062EF8F /* Frameworks */,
 				0851502C24F94EB60062EF8F /* Resources */,
+				3F12131922C55C6716184C61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +319,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF506481AFA023F771B27B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Data Warehouse/Pods-Data Warehouse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Data Warehouse/Pods-Data Warehouse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Data Warehouse/Pods-Data Warehouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3017C1BC49D229898A838A5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Data WarehouseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F12131922C55C6716184C61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Data Warehouse-Data WarehouseUITests/Pods-Data Warehouse-Data WarehouseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Data Warehouse-Data WarehouseUITests/Pods-Data Warehouse-Data WarehouseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Data Warehouse-Data WarehouseUITests/Pods-Data Warehouse-Data WarehouseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2DC5ED34F9FE5A9D2F3BC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Data Warehouse-Data WarehouseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA83931A5B89FDE907295E32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Data Warehouse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0851500624F94EB40062EF8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D7FB8224FAC06B00E97F99 /* TaskList.swift in Sources */,
 				0851501224F94EB40062EF8F /* ViewController.swift in Sources */,
+				08D7FB8624FAF55500E97F99 /* TaskTableViewCell.swift in Sources */,
 				0851500E24F94EB40062EF8F /* AppDelegate.swift in Sources */,
 				0851501024F94EB40062EF8F /* SceneDelegate.swift in Sources */,
+				08D7FB8424FAE1CB00E97F99 /* RealmViewController.swift in Sources */,
+				08D7FB7E24FA719800E97F99 /* Persistance.swift in Sources */,
+				08D7FB8024FA7C0900E97F99 /* Task.swift in Sources */,
 				0851501824F94EB40062EF8F /* Data_Warehouse.xcdatamodeld in Sources */,
+				08D7FB8A24FB048C00E97F99 /* RealmTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,10 +609,12 @@
 		};
 		0851503824F94EB60062EF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841FF7459A0167CDA7184474 /* Pods-Data Warehouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T593LHZBQ;
 				INFOPLIST_FILE = "Data Warehouse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,10 +629,12 @@
 		};
 		0851503924F94EB60062EF8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5939F55023653A03D34892DF /* Pods-Data Warehouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2T593LHZBQ;
 				INFOPLIST_FILE = "Data Warehouse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +649,7 @@
 		};
 		0851503B24F94EB60062EF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68C1FDD7580C7F2E059061B /* Pods-Data WarehouseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +671,7 @@
 		};
 		0851503C24F94EB60062EF8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DB6DC766A74EE173182C7E /* Pods-Data WarehouseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +693,7 @@
 		};
 		0851503E24F94EB60062EF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C72F0E52DB2A5E93ADFAA17 /* Pods-Data Warehouse-Data WarehouseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +713,7 @@
 		};
 		0851503F24F94EB60062EF8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD3A211639FE5C42F0603F6 /* Pods-Data Warehouse-Data WarehouseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
